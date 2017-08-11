@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crystals Collector</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+</head>
+<body>
+	<div class="page-header">
+		<h1>Crystals Collector</h1>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+            			<h4 class="panel-title">Instructions</h4>
+          			</div>
+          			<div class="panel-body">
+          				<p>The goal of this game is to increase your score to reach the number below.</p>
+          				<p>Each of the crystal buttons have a different value. Click the buttons to increase your score, and try to reach the number!</p>
+          				<p>If you reach the target number exactly, you win! If your score goes over the target number you will lose the round.</p>
+          				<p>Once you win or lose, the target number will change, and the values of each crystal will change as well.</p>
+          			</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-lg-4">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+            			<h4 class="panel-title">This is the number to reach:</h4>
+          			</div>
+      				<div class="panel-body">
+						<p class="goalNum"></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+            			<h4 class="panel-title">Keep track!</h4>
+          			</div>
+          			<div class="row">
+          				<div class="col-lg-2 col-md-2 col-sm-2">
+          					<div class="panel-body">
+	          					<p>Wins:</p>
+								<p>Losses:</p>
+							</div>
+						</div>
+						<div class="col-lg-2 col-md-2 col-sm-2">
+							<div class="panel-body">
+								<p class="numWin">0</p>
+								<p class="numLoss">0</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-lg-2 col-md-2 col-sm-2">
+				<div class="btn btn-default">
+					<div class="crystal crystal-1">
+						<img src="assets/images/gem-blue.png">
+					</div>
+          		</div>
+			</div>
+
+			<div class="col-lg-2 col-md-2 col-sm-2">
+				<div class="btn btn-default">
+					<div class="crystal crystal-2">
+						<img src="assets/images/gem-yellow.png">
+					</div>
+          		</div>
+			</div>
+			<div class="col-lg-2 col-md-2 col-sm-2">
+				<div class="btn btn-default">
+					<div class="crystal crystal-3">
+						<img src="assets/images/gem-green.png">
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-2 col-md-2 col-sm-2">
+				<div class="btn btn-default">
+					<div class="crystal crystal-4">
+						<img src="assets/images/gem-purple.png">
+					</div>
+          		</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-lg-4">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+            			<h4 class="panel-title">Total score:</h4>
+          			</div>
+          			<div class="panel-body">
+          				<p class="score"></p>
+          			</div>
+          		</div>
+			</div>
+		</div>
+
+		<div class="footer">
+			<div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+		</div>
+	</div>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
