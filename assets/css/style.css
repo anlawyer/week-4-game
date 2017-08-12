@@ -11,3 +11,7 @@
 .btn {
 	margin-bottom: 20px;
 }
+
+.goalNum, .score {
+	font-size: 30px;
+}
